@@ -1,0 +1,12 @@
+
+
+<div style="text-align:center">
+    <h1>
+   
+      <app-child  [data]="message"></app-child>
+      <app-child (Myevent)="newmessage= $event"></app-child>
+      <h1>{{newmessage}}</h1>
+
+    </h1>
+  </div>
+<router-outlet></router-outlet>
